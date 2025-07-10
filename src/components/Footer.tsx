@@ -8,11 +8,11 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-gold rounded-lg flex items-center justify-center">
-                <div className="w-8 h-8 bg-white rounded transform rotate-45 relative">
-                  <div className="absolute inset-1 bg-gold rounded-sm transform -rotate-45"></div>
-                </div>
-              </div>
+              <img 
+                src="/lovable-uploads/a593eba4-85aa-474f-a40e-e1e6fab6a709.png" 
+                alt="Tareeq Al Marjan Logo" 
+                className="w-12 h-12 object-contain"
+              />
               <div>
                 <div className="text-xl font-bold tracking-wider">TAREEQ</div>
                 <div className="text-xs font-light tracking-widest opacity-90">AL MARJAN</div>

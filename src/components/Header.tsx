@@ -70,11 +70,11 @@ const Header = () => {
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex items-center space-x-3">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <div className="w-8 h-8 bg-gold rounded transform rotate-45 relative">
-                    <div className="absolute inset-1 bg-white rounded-sm transform -rotate-45"></div>
-                  </div>
-                </div>
+                <img 
+                  src="/lovable-uploads/a593eba4-85aa-474f-a40e-e1e6fab6a709.png" 
+                  alt="Tareeq Al Marjan Logo" 
+                  className="w-12 h-12 object-contain"
+                />
                 <div className="text-white">
                   <div className="text-xl font-bold tracking-wider">TAREEQ</div>
                   <div className="text-xs font-light tracking-widest opacity-90">AL MARJAN</div>
